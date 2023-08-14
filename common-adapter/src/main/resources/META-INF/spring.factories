@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+mm.com.mytelpay.adapter.common.api.config.AdapterAutoConfiguration, \
+mm.com.mytelpay.adapter.common.api.business.impl.RequestLogServiceImpl, \
+mm.com.mytelpay.adapter.common.api.service.AuthorityServiceImpl

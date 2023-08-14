@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>mm.com.mytelpay.adapter</groupId>
+        <artifactId>mytelpay-adapter-common</artifactId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>common-adapter</artifactId>
+
+    <properties>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+        <app.version>1.0</app.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>mm.com.mytelpay.adapter</groupId>
+            <artifactId>common-model</artifactId>
+            <version>${app.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>mm.com.mytelpay.adapter</groupId>
+            <artifactId>common-web</artifactId>
+            <version>${app.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>mm.com.mytelpay.adapter</groupId>
+            <artifactId>common-connector</artifactId>
+            <version>${app.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>mm.com.mytelpay.adapter</groupId>
+            <artifactId>common-cache</artifactId>
+            <version>${app.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc8</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>central</id>
+            <name>Central Repository</name>
+            <url>https://repo.maven.apache.org/maven2</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <releases>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+        </pluginRepository>
+    </pluginRepositories>
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>Central Repository</name>
+            <url>https://repo.maven.apache.org/maven2</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+</project>

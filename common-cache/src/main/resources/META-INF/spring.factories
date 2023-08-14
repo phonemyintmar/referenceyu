@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+mm.com.mytelpay.adapter.common.cache.RedisCacheAutoConfiguration, \
+mm.com.mytelpay.adapter.common.cache.embedded.EmbeddedRedisConfiguration

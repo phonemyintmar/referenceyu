@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+mm.com.mytelpay.adapter.common.persistence.config.JpaDatabaseAutoConfiguration, \
+mm.com.mytelpay.adapter.common.persistence.support.SeqRepositoryImpl

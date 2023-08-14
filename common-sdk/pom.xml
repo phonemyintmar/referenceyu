@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>mm.com.mytelpay.adapter</groupId>
+        <artifactId>mytelpay-adapter-common</artifactId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>common-sdk</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <app.version>1.0</app.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>mm.com.mytelpay.adapter</groupId>
+            <artifactId>common-model</artifactId>
+            <version>${app.version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+</project>

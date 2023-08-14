@@ -1,0 +1,36 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>mm.com.mytelpay.adapter</groupId>
+        <artifactId>mytelpay-adapter-common</artifactId>
+        <version>1.0</version>
+    </parent>
+    <artifactId>common-kafka</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <app.version>1.0</app.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>mm.com.mytelpay.adapter</groupId>
+            <artifactId>common-util</artifactId>
+            <version>${app.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mm.com.mytelpay.adapter</groupId>
+            <artifactId>common-model</artifactId>
+            <version>${app.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
+
+    </dependencies>
+</project>

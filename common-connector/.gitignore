@@ -1,0 +1,12 @@
+.settings
+*/.settings
+/.project
+*/.project
+*/.classpath
+
+*.iml
+
+logs/
+derby.log
+
+/target

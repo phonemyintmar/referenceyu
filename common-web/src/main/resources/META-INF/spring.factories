@@ -1,0 +1,11 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+mm.com.mytelpay.adapter.common.webapp.security.HttpSecurityConfiguration, \
+mm.com.mytelpay.adapter.common.webapp.security.CustomAuthenticationProvider, \
+mm.com.mytelpay.adapter.common.webapp.security.RegexPermissionEvaluator, \
+mm.com.mytelpay.adapter.common.webapp.exception.ExceptionHandleAdvice, \
+mm.com.mytelpay.adapter.common.webapp.i18n.LocaleConfig, \
+mm.com.mytelpay.adapter.common.webapp.i18n.impl.LocaleStringServiceImpl, \
+mm.com.mytelpay.adapter.common.webapp.config.WebConfiguration, \
+mm.com.mytelpay.adapter.common.webapp.config.StatsTracingFilter, \
+mm.com.mytelpay.adapter.common.webapp.config.CustomWebDataBinderAdvice, \
+mm.com.mytelpay.adapter.common.webapp.config.jackson.JacksonConfiguration
